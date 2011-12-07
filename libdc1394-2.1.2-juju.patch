@@ -1,0 +1,11 @@
+--- libdc1394-2.1.2/dc1394/juju/juju.h.old	2010-04-05 15:04:23.000000000 -0400
++++ libdc1394-2.1.2/dc1394/juju/juju.h	2010-04-05 15:04:11.000000000 -0400
+@@ -24,7 +24,7 @@
+ #ifndef __DC1394_JUJU_H__
+ #define __DC1394_JUJU_H__
+ 
+-#include "firewire-cdev.h"
++#include <linux/firewire-cdev.h>
+ #include "config.h"
+ #include "internal.h"
+ #include "register.h"
